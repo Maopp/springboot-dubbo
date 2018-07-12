@@ -4,6 +4,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * 测试CountDownLatch
+ */
 public class CountDownLatchTest {
 
     private volatile int count = 0;
